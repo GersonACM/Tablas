@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tablas">
         <activity
+            android:name=".ResultadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Practica_activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
