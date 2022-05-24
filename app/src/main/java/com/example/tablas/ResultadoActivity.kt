@@ -19,9 +19,9 @@ class ResultadoActivity : AppCompatActivity() {
         val extras = intent.extras
         val respuestaCorrecta = extras!!.getBoolean("respuesta")
         if(respuestaCorrecta){
-            animView.setAnimation(R.raw.correctanimation)
+            animView.setAnimation(R.raw.correct)
         }else{
-            animView.setAnimation(R.raw.sadface)
+            animView.setAnimation(R.raw.error)
         }
 
     }
